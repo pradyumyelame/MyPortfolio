@@ -84,8 +84,8 @@ const projects = [
     tech: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS'],
     image: '/assets/p7.jpg',
     filename: 'myportfolio.project',
-    codeLink: '',
-    liveLink: ''
+    codeLink: 'https://github.com/pradyumyelame/MyPortfolio',
+    liveLink: 'https://my-portfolio-livid-five-33.vercel.app/'
   }
 ];
 
