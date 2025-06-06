@@ -1,0 +1,205 @@
+body {
+  background-color: #0d1224;
+  color: white;
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.terminal-window {
+  background-color: #10192f;
+  border: 1px solid #1e2a46;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  width: 500px;
+  overflow: hidden;
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  background-color: #0b1323;
+  border-bottom: 1px solid #1e2a46;
+}
+
+.traffic-dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+.red { background-color: #ff5f56; }
+.yellow { background-color: #ffbd2e; }
+.green { background-color: #27c93f; }
+
+.filename {
+  color: #89b4fa;
+  margin-left: auto;
+  font-size: 0.85rem;
+}
+
+.terminal-body {
+  padding: 1rem;
+}
+
+.command-line {
+  color: #00ff9f;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.input-group-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field input,
+.input-field textarea {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.5rem 0.8rem;
+  color: #e2e8f0;
+  font-family: 'Fira Code', monospace;
+  font-size: 0.9rem;
+}
+
+.full {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.send-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'Fira Code', monospace;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #2563eb;
+  box-shadow: 0 0 8px #3b82f6;
+  transform: translateY(-2px);
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  color: #e2e8f0;
+  margin-bottom: 0.7rem;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.info-box:hover {
+  background-color: #273549;
+}
+
+.info-icon {
+  font-size: 1.4rem;
+  color: #60a5fa;
+}
+
+.right {
+  float: right;
+  font-size: 0.85rem;
+  color: #60a5fa;
+}
+/* === RESPONSIVE STYLES === */
+
+@media (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .terminal-window {
+    width: 90%;
+  }
+
+  .input-group-row {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .send-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .side-panel {
+    width: 100%;
+    align-items: center;
+  }
+
+  .info-box {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .terminal-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .filename {
+    margin-left: 0;
+    font-size: 0.75rem;
+  }
+
+  .send-button {
+    font-size: 0.85rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .info-icon {
+    font-size: 1.2rem;
+  }
+
+  .right {
+    font-size: 0.75rem;
+  }
+}
