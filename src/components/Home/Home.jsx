@@ -30,7 +30,7 @@ const lines = [
   {
     type: 'list',
     items: [
-      [<FaTrophy key="cgpa" className="icon" />, 'CGPA: 7.5/10'],
+      [<FaGraduationCap key="degree" className="icon" />, 'Degree: B.Tech in Computer Science'],
       [<FaLaptopCode key="dsa" className="icon" />, 'DSA: 500+ Problems'],
       [<FaGraduationCap key="grad" className="icon" />, 'Graduation: 2026'],
       [<FaCode key="proj" className="icon" />, 'Projects: 10+'],

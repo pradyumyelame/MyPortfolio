@@ -78,7 +78,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 6px; /* <-- Uniform gap between icon and text */
   color: #d6d6d6;
   font-size: 0.95rem;
   cursor: pointer;
@@ -90,6 +90,8 @@ body {
 
 .nav-icon {
   font-size: 1rem;
+  display: inline-flex;
+  /* gap removed, relying on .nav-links li gap */
 }
 
 .link-text {
@@ -144,7 +146,7 @@ body {
   border-radius: 0.75rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 6px; /* uniform gap */
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 0 10px rgba(60, 130, 246, 0.4);
@@ -157,6 +159,7 @@ body {
 
 .resume-icon {
   font-size: 1.5rem;
+  /* gap removed */
 }
 
 .hamburger {
