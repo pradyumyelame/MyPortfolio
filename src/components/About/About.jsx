@@ -122,7 +122,7 @@ const About = () => {
               <em>
                 "Every line of code is a step towards building something amazing. As a final year student, I'm excited to apply my knowledge and contribute to innovative solutions."
               </em>
-              <footer>– <span className="highlight">Your Name</span></footer>
+              <footer>– <span className="highlight">pradyumyelame</span></footer>
             </blockquote>
           </div>
         </div>
