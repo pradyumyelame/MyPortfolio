@@ -69,7 +69,7 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript", "React.js"],
     image: '/assets/p6.webp',
     filename: 'to_do_list.project',
-    codeLink: 'https://github.com/pradyumyelame/Mini_Project',
+    codeLink: 'https://github.com/pradyumyelame/TO_DO_LIST',
     liveLink: ''
   },
   {
