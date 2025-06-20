@@ -76,8 +76,8 @@ const projects = [
     id: 6,
     title: 'MyPortfolio',
     year: '2025',
-    status: 'completed',
-    statusClass: 'status-completed',
+    status: 'Live',
+    statusClass: 'status-Live',
     description:
       'A personal portfolio website showcasing my skills, projects, and achievements. Built with React.js, it features a responsive design, interactive elements, and a clean user interface to highlight my work effectively.',
     
